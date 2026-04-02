@@ -1,6 +1,6 @@
 let continuar = true;
 while(continuar){
-    let ope = parseInt(prompt("Digite\n[0] para sair\n[1] para soma\n[2] para subtração\n[3] para multiplicação\n[4] para divisão\n[5] para converção de valores\n[6] para bhaskara\n[7] para porcentagem\n[8] para regra de 3\n[9] para trigonometria\n[10] para estatistica\n[11] para probabilidade\n"));
+    let ope = parseInt(prompt("Digite\n[0] para sair\n[1] para soma\n[2] para subtração\n[3] para multiplicação\n[4] para divisão\n[5] para converção de valores\n[6] para bhaskara\n[7] para porcentagem\n[8] para regra de 3\n[9] para trigonometria\n[10] para estatistica\n"));
     let num, num1;
 
     switch(ope){

@@ -1,7 +1,7 @@
 function esta(){
     let tipo = parseInt(prompt("Digite\n[1] para média\n[2] para mediana\n[3] para moda\n[4] para variancia"));
     let tam = parseInt(prompt("Digite o tamanho da lista: "));
-    let soma = 0, meio = 0, par = 0, moda = 0, x = 0, media1 = 0;
+    let soma = 0, meio = 0, par = 0, moda = 0, x = 0;
     let lista = new Array(tam);
     
     if(tipo != 4){
@@ -51,7 +51,7 @@ function esta(){
                 valor[contador] = parseInt(prompt("Digite um valor: "));
                 soma += valor[contador];
             }
-            media1 = soma / valor.length;
+            media = soma / valor.length;
             soma = 0;
             
             for (let contador = 0; contador < valor.length; contador++) {

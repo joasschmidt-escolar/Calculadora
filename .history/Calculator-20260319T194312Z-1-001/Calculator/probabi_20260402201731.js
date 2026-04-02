@@ -1,0 +1,3 @@
+function probabi(){
+    function ca
+}
